@@ -10,12 +10,13 @@
         cd TikTok
     ```
 2. 安装依赖(参考下面中间件介绍和docker-compose.yml)
+    安装`goctl`:  https://go-zero.dev/docs/tasks/installation/goctl
 
-3. 修改配置信息
+4. 修改配置信息
 
     修改`etc/main.yaml`中的配置信息
 
-4. 启动项目
+5. 启动项目
 
     ```shell
         make run
